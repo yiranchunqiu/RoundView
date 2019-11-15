@@ -2,8 +2,8 @@
 # 自用项目，自定义圆形圆环圆角控件（LinearLayout，RelativeLayout，TextView）
 
 ```
-
-### 图片预览
+### 图片
+### Example
 ![FilePicker](https://github.com/yiranchunqiu/roundview/blob/master/pic/%E5%9B%BE%E7%89%871.png)
 ![FilePicker](https://github.com/yiranchunqiu/roundview/blob/master/pic/%E5%9B%BE%E7%89%872.png)
 
@@ -14,7 +14,6 @@
 #
 allprojects {
  		repositories {
- 			...
  			maven { url 'https://jitpack.io' }
  		}
  	}
