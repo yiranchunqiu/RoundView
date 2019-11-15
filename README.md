@@ -17,6 +17,7 @@ allprojects {
  			maven { url 'https://jitpack.io' }
  		}
  	}
+```
 
 ### 添加依赖
 
@@ -24,6 +25,7 @@ allprojects {
  	dependencies {
     	        implementation 'com.github.yiranchunqiu:roundview:1.0'
     	}
+```
 
 ### 使用
 
@@ -43,7 +45,7 @@ allprojects {
                 app:no_color="@color/green"
                 app:radius="10dp"
                 app:yes_color="@color/gray" />
-
+```
 ### 属性
 
 | 名称 | 描述 |  默认值 |
