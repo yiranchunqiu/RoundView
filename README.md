@@ -3,9 +3,10 @@
 
 ```
 ### 图片
-### Example
-![FilePicker](https://github.com/yiranchunqiu/roundview/blob/master/pic/%E5%9B%BE%E7%89%871.png)
-![FilePicker](https://github.com/yiranchunqiu/roundview/blob/master/pic/%E5%9B%BE%E7%89%872.png)
+<div style="align: center">
+       <img src="https://github.com/yiranchunqiu/roundview/blob/master/pic/%E5%9B%BE%E7%89%871.png" width="32%">
+       <img src="https://github.com/yiranchunqiu/roundview/blob/master/pic/%E5%9B%BE%E7%89%872.png" width="32%">
+</div>
 
 ```
 
