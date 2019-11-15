@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 自定义通用 -->
+    <attr name="is_selector" format="boolean" />
+    <attr name="left_top_radius" format="dimension" />
+    <attr name="left_bottom_radius" format="dimension" />
+    <attr name="right_top_radius" format="dimension" />
+    <attr name="right_bottom_radius" format="dimension" />
+    <attr name="radius" format="dimension" />
+    <attr name="no_color" format="reference" />
+    <attr name="no_stroke_color" format="reference" />
+    <attr name="yes_color" format="reference" />
+    <attr name="yes_stroke_color" format="reference" />
+    <attr name="enabled_color" format="reference" />
+    <attr name="enabled_stroke_color" format="reference" />
+    <attr name="stroke_line_width" format="dimension" />
+    <!-- 自定义TextView -->
+    <declare-styleable name="RoundTextView">
+        <attr name="is_selector" />
+        <attr name="left_top_radius" />
+        <attr name="left_bottom_radius" />
+        <attr name="right_top_radius" />
+        <attr name="right_bottom_radius" />
+        <attr name="radius" />
+        <attr name="no_color" />
+        <attr name="no_stroke_color" />
+        <attr name="yes_color" />
+        <attr name="yes_stroke_color" />
+        <attr name="enabled_color" />
+        <attr name="enabled_stroke_color" />
+        <attr name="stroke_line_width" />
+    </declare-styleable>
+    <!-- 自定义RelativeLayout -->
+    <declare-styleable name="RoundRelativeLayout">
+        <attr name="is_selector" />
+        <attr name="left_top_radius" />
+        <attr name="left_bottom_radius" />
+        <attr name="right_top_radius" />
+        <attr name="right_bottom_radius" />
+        <attr name="radius" />
+        <attr name="no_color" />
+        <attr name="no_stroke_color" />
+        <attr name="yes_color" />
+        <attr name="yes_stroke_color" />
+        <attr name="enabled_color" />
+        <attr name="enabled_stroke_color" />
+        <attr name="stroke_line_width" />
+    </declare-styleable>
+    <!-- 自定义LinearLayout -->
+    <declare-styleable name="RoundLinearLayout">
+        <attr name="is_selector" />
+        <attr name="left_top_radius" />
+        <attr name="left_bottom_radius" />
+        <attr name="right_top_radius" />
+        <attr name="right_bottom_radius" />
+        <attr name="radius" />
+        <attr name="no_color" />
+        <attr name="no_stroke_color" />
+        <attr name="yes_color" />
+        <attr name="yes_stroke_color" />
+        <attr name="enabled_color" />
+        <attr name="enabled_stroke_color" />
+        <attr name="stroke_line_width" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.pxz.pxzroundview.RoundTextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="标题"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:is_selector="false"
+        app:no_color="@color/colorPrimaryDark" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <com.pxz.pxzroundview.RoundLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:no_color="@color/white">
+
+            <com.pxz.pxzroundview.RoundTextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="可点击按钮"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:is_selector="true"
+                app:no_color="@color/green"
+                app:radius="10dp"
+                app:yes_color="@color/gray" />
+
+            <com.pxz.pxzroundview.RoundTextView
+                android:id="@+id/tv_text"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="不可点击按钮"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:is_selector="true"
+                app:no_color="@color/green"
+                app:enabled_color="@color/gray"
+                app:radius="10dp"
+                app:yes_color="@color/gray" />
+
+            <com.pxz.pxzroundview.RoundTextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="按钮"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:no_color="@color/green"
+                app:radius="10dp" />
+
+            <com.pxz.pxzroundview.RoundTextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="可点击按钮"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:is_selector="true"
+                app:no_color="@color/blue"
+                app:radius="25dp"
+                app:yes_color="@color/gray" />
+
+            <com.pxz.pxzroundview.RoundTextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="按钮"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:no_color="@color/blue"
+                app:radius="25dp" />
+
+            <com.pxz.pxzroundview.RoundTextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="20dp"
+                android:enabled="false"
+                android:gravity="center"
+                android:text="不可点击按钮"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:enabled_color="@color/gray"
+                app:no_color="@color/blue"
+                app:radius="25dp" />
+
+            <com.pxz.pxzroundview.RoundTextView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="你好"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:left_bottom_radius="25dp"
+                app:left_top_radius="25dp"
+                app:no_color="@color/blue" />
+
+            <com.pxz.pxzroundview.RoundTextView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="你好"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:no_color="@color/blue"
+                app:right_bottom_radius="25dp"
+                app:right_top_radius="25dp" />
+
+            <com.pxz.pxzroundview.RoundTextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="你好"
+                android:textColor="@color/green"
+                android:textSize="20sp"
+                app:no_color="@color/white"
+                app:no_stroke_color="@color/green"
+                app:radius="10dp"
+                app:stroke_line_width="2dp" />
+
+            <com.pxz.pxzroundview.RoundRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="20dp"
+                app:no_color="@color/white"
+                app:no_stroke_color="@color/green"
+                app:radius="10dp"
+                app:stroke_line_width="2dp">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="50dp"
+                    android:scaleType="center"
+                    android:src="@mipmap/ic_launcher" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="100dp"
+                    android:text="这是RelativeLayout"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+            </com.pxz.pxzroundview.RoundRelativeLayout>
+
+            <com.pxz.pxzroundview.RoundRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="20dp"
+                app:is_selector="true"
+                app:no_color="@color/blue"
+                app:radius="25dp"
+                app:yes_color="@color/gray">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="50dp"
+                    android:scaleType="center"
+                    android:src="@mipmap/ic_launcher" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="100dp"
+                    android:text="这是RelativeLayout"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </com.pxz.pxzroundview.RoundRelativeLayout>
+
+            <com.pxz.pxzroundview.RoundLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                app:no_color="@color/white"
+                app:no_stroke_color="@color/green"
+                app:radius="10dp"
+                app:stroke_line_width="2dp">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:scaleType="center"
+                    android:src="@mipmap/ic_launcher" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:text="这是LinearLayout"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+            </com.pxz.pxzroundview.RoundLinearLayout>
+
+            <com.pxz.pxzroundview.RoundLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                app:is_selector="true"
+                app:no_color="@color/blue"
+                app:radius="25dp"
+                app:yes_color="@color/gray">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:scaleType="center"
+                    android:src="@mipmap/ic_launcher" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:text="这是LinearLayout"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </com.pxz.pxzroundview.RoundLinearLayout>
+        </com.pxz.pxzroundview.RoundLinearLayout>
+    </ScrollView>
+</LinearLayout>

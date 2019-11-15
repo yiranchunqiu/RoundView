@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--透明度转换-->
+    <!--    00%=FF（不透明） 5%=F2   10%=E5  15%=D8  20%=CC
+            25%=BF  30%=B2  35%=A5  40%=99  45%=8c  50%=7F
+            55%=72  60%=66  65%=59  70%=4c  75%=3F  80%=33
+            85%=21  90%=19  95%=0c  100%=00（全透明）    -->
+    <!-- 应用相关 -->
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <!-- 通用颜色 -->
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="blue">#0000ff</color>
+    <color name="red">#ff0000</color>
+    <color name="yellow">#ffff00</color>
+    <color name="green">#008000</color>
+    <color name="purple">#800080</color>
+    <color name="gray">#808080</color>
+    <color name="gold">#ffd700</color>
+    <color name="cyan">#00ffff</color>
+    <color name="transparent">#00ffffff</color>
+</resources>
