@@ -20,5 +20,6 @@ dependencies {
     //v7包
     implementation 'androidx.appcompat:appcompat:+'
     //自定义圆角view
-    implementation project(':pxzroundview')
+//    implementation project(':pxzroundview')
+    implementation 'com.github.yiranchunqiu:roundview:1.0'
 }
