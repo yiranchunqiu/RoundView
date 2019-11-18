@@ -7,12 +7,15 @@ android {
         minSdkVersion 15
         targetSdkVersion 29
         versionCode 1
-        versionName "1.0"
+        versionName "v1.0"
     }
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
         }
     }
 }
@@ -21,3 +24,24 @@ dependencies {
     //v7包
     implementation 'androidx.appcompat:appcompat:+'
 }
+
+def _BASENAME = "pxzroundview"
+def _VERSION = "_V1.0"
+//生成jar包的位置
+def _DestinationPath = "build"
+//待打包文件位置
+def zipFile = file('build/outputs/bundles/default/classes.jar')
+
+task deleteBuild(type:Delete){
+    delete _DestinationPath + _BASENAME + _VERSION + ".jar"
+}
+
+task makeJar(type:Jar){
+    from zipTree(zipFile)
+    //将assets目录打入jar包
+    from fileTree(dir:'src/main',includes:['assets/**'])
+    baseName = _BASENAME + _VERSION
+    destinationDir = file(_DestinationPath)
+}
+
+makeJar.dependsOn(deleteBuild, build)
