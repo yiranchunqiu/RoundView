@@ -40,6 +40,8 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     //v7包
     implementation 'androidx.appcompat:appcompat:+'
+    //检测内存泄漏
+    debugImplementation   'com.squareup.leakcanary:leakcanary-android:2.0-beta-3'
     //自定义圆角view
     implementation project(':pxzroundview')
 //    implementation 'com.github.yiranchunqiu:roundview:1.0'
